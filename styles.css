@@ -47,6 +47,8 @@
     --color-input-bg: var(--color-white);
     --color-input-border: var(--color-grey-300);
     --color-footer-text: var(--color-grey-600);
+    --color-contact-text: var(--color-grey-600);
+    --color-link-text: var(--color-primary);
 
     --color-btn-hover: #4a4ca3;
     --color-btn-download-hover: #2b354f;
@@ -1600,3 +1602,109 @@ header .header-container {
 
 
 /* FOOTER END */
+
+
+/* CONTACT US PAGE 1 START */
+
+#contact-page {
+    background: var(--color-background);
+
+    .container {
+
+    }
+
+    .links {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .homepage-link {
+        display: flex;
+        align-items: center;
+        gap: .3rem;
+
+       a {
+        color: var(--color-contact-text);
+        text-decoration: none;
+       }
+    }
+
+    .contact-links {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        a {
+            color: var(--color-link-text);
+            text-decoration: none;
+        }
+    }
+
+    .contact-info-container {
+
+        h2 {
+            font-size: 40px;
+            font-weight: 800;
+            color: var(--color-titles);
+        }
+    }
+
+    .contact-section {
+
+    }
+
+    .contact-info {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .contact-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid transparent;
+        background-color: var(--color-card-bg);
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        
+        img {
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .contact-details {
+
+        h4 {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--color-titles);
+        }
+
+        p {
+            font-size: 16px;
+            color: var(--color-text-darkmode);
+        }
+    }
+
+    .message-link {
+        display: flex;
+        align-items: center;
+        gap: .6rem;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--color-link-text);
+        cursor: pointer;
+
+        a {
+            color: var(--color-link-text);
+            text-decoration: none;
+        }
+    }
+}
+
+
+/* CONTACT US PAGE 1 END */
