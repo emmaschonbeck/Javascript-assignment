@@ -1618,6 +1618,8 @@ header .header-container {
         display: flex;
         align-items: center;
         gap: 1.5rem;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
     }
 
     .homepage-link {
@@ -1648,11 +1650,15 @@ header .header-container {
             font-size: 40px;
             font-weight: 800;
             color: var(--color-titles);
+            padding-bottom: 4rem;
         }
     }
 
     .contact-section {
-
+        display: flex;
+        flex-direction: column;
+        gap: 3.5rem;
+        padding-bottom: 10rem;
     }
 
     .contact-info {
@@ -1667,7 +1673,7 @@ header .header-container {
         border: 1px solid transparent;
         background-color: var(--color-card-bg);
         border-radius: 50%;
-        width: 60px;
+        min-width: 60px;
         height: 60px;
         
         img {
@@ -1677,6 +1683,9 @@ header .header-container {
     }
 
     .contact-details {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
 
         h4 {
             font-size: 24px;
@@ -1698,6 +1707,7 @@ header .header-container {
         font-weight: 600;
         color: var(--color-link-text);
         cursor: pointer;
+        padding-top: 1rem;
 
         a {
             color: var(--color-link-text);
