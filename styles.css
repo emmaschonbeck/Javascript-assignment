@@ -63,6 +63,7 @@
     --color-card-shadow: rgb(103, 98, 98, 0.10);
     --color-card-icon-shadow: rgba(0, 0, 0, 0.494);
     --color-accordion-shadow: #00000015;
+    --color-form-shadow: rgba(0, 0, 0, 0.1);
     
     --container-padding: 1rem;
     --container-margin: 1rem;
@@ -1716,5 +1717,86 @@ header .header-container {
     }
 }
 
-
 /* CONTACT US PAGE 1 END */
+
+
+/* FORM START */
+
+#fill-form {
+
+    .container {
+        background-color: var(--color-card-bg);
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+        padding: 4.5rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px var(--color-form-shadow);
+
+        position: absolute;
+        right: 420px;
+        bottom: 190px;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--color-titles);
+            text-align: start;
+            padding-bottom: 3rem;
+        }
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .form-group {
+        
+        #specialist {
+            cursor: pointer;
+        }
+    }
+
+    /* Nedan kodstycke är tagen av Chat GPT */
+
+    .form-group label {
+        display: block;
+        font-size: 1rem;
+        font-weight: 600;
+        color: var(--color-titles);
+        margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 1rem;
+    }
+
+    /* Här slutar kodstycket som är tagen av Chat GPT */
+
+    .btn-submit {
+        font-size: 1rem;
+        color: var(--color-light);
+        background-color: var(--color-logo-bg);
+        border: none;
+        border-radius: 8px;
+        padding: 1rem;
+        margin-top: 7rem;
+        cursor: pointer;
+    }
+}
+
+/* FORM END */
+
+
+/* CONTACT US PAGE 2 START */
+
+
+
+/* CONTACT US PAGE 2 END */
