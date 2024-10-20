@@ -1797,6 +1797,63 @@ header .header-container {
 
 /* CONTACT US PAGE 2 START */
 
+#address-page {
 
+    .container {
+        display: flex;
+        gap: 7rem;
+        padding-top: 10rem;
+        padding-bottom: 20rem;
+    }
+
+    .info-1 {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3rem;
+        padding-top: .3rem;
+
+        h3 {
+            font-size: 24px;
+            font-weight: 800;
+            color: var(--color-titles);
+            padding-bottom: 2rem;
+        }
+    }
+
+    .address-detail {
+        display: flex;
+        align-items: center;
+        gap: .7rem;
+        padding-bottom: .9rem;
+
+        p {
+            font-size: 1rem;
+            color: var(--color-text);
+        }
+
+        span {
+            font-weight: 800;
+            color: var(--color-titles);
+        }
+    }
+
+    .social-media-icons {
+        display: flex;
+        gap: 1rem;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border: 1px solid transparent;
+            border-radius: 6px;
+            padding: .6rem;
+            background-color: var(--color-background);
+            
+            text-decoration: none;
+        }
+    }
+}
 
 /* CONTACT US PAGE 2 END */
